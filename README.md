@@ -2,20 +2,20 @@
 
 A new Flutter project.
 
-## Getting Started
+## Google_trans_simple
 
-This project is a starting point for a Flutter application.
+一个仿照Google translate UI的翻译App,目前有翻译单词的功能，支持10+语种，和收藏单词到本地
 
-A few resources to get you started if this is your first Flutter project:
+#### 技术栈:
+lang: dart
+数据持久化： floor库
+全局数据：provider
+api:百度翻译Api
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![alt demo](https://typrobed-1308357281.cos.ap-chongqing.myqcloud.com/imagebed/202112131703947.png)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt demo](https://typrobed-1308357281.cos.ap-chongqing.myqcloud.com/imagebed/202112131706056.png)
 
-```
-flutter packages pub run build_runner build
-flutter packages pub run build_runner watch
-```
+
+下载Apk Android版
+https://github.com/xuansining/apkdownload
