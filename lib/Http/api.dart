@@ -16,8 +16,9 @@ Dio dio = Dio(options);
 final String testUrl =
     'http://api.fanyi.baidu.com/api/trans/vip/translate?q=apple&from=en&to=zh&appid=2015063000000001&salt=1435660288&sign=f89f9594663708c1605f3d736d01d2d4';
 final String baseUrl = 'https://fanyi-api.baidu.com/api/trans/vip/translate';
-final String appId = '20201020000594726';
-final String myId = 'p7_f58UpQsuL48yvih2K';
+//为了安全，不展示秘钥
+final String appId = 'xxxxxx';
+final String myId = 'xxxxxx';
 String slat = '';
 void getSalt() {
   slat = Random().nextInt(2000).toString();
